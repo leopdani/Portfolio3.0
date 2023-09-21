@@ -176,13 +176,13 @@ const NavBar = () => {
         ">
           <nav   className="flex items-center flex-col justify-center" >
             <CustomMobileLink href="/" title="Home" className=""  toggle={handleClick} />
-            <CustomMobileLink href="/about" title="About" className="" toggle={handleClick}/>
-            <CustomMobileLink href="/projects" title="Projects" className="" toggle={handleClick}/>
-            <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/>
+            <CustomMobileLink href="/about" title="Sobre" className="" toggle={handleClick}/>
+            <CustomMobileLink href="/projects" title="Projetos" className="" toggle={handleClick}/>
+            <CustomMobileLink href="/articles" title="Artigos" className="" toggle={handleClick}/>
           </nav>
   
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -190,7 +190,7 @@ const NavBar = () => {
               className="w-6 mr-3 sm:mx-1"
             >
               <TwitterIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
               href="https://github.com/leopdani"
               target={"_blank"}
@@ -218,7 +218,7 @@ const NavBar = () => {
             >
               <PinterestIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://dribbble.com/tags/icons"
               target={"_blank"}
               className="w-6 ml-3 sm:mx-1"
@@ -226,7 +226,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
   
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
