@@ -24,7 +24,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic2} alt="CodeBucks" className='w-full h-auto lg:hidden md:inline-block md:w-full ' 
+              <Image src={profilePic2} alt="Leonardo Prospero Dani" className='w-full h-auto lg:hidden md:inline-block md:w-full ' 
               priority
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
@@ -36,7 +36,7 @@ export default function Home() {
               xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-              Como um arquiteto da web versátil e criativo, minha paixão é criar experiências únicas que ganham vida na tela. Explore meu portfólio para ver como minhas habilidades em React.js e design de ponta podem impulsionar sua visão de negócios para o sucesso online. Juntos, podemos construir o futuro digital.
+              Como um arquiteto da web versátil e criativo, minha paixão é criar experiências únicas que ganham vida na tela. Explore meu portfólio para ver como minhas habilidades em React.js e design de ponta podem impulsionar sua visão de negócios para o sucesso online. Juntos, podemos construir o futuro digital!
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Curriculum_Leonardo_Prospero_Dani-4.pdf" 
